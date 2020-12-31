@@ -12,13 +12,14 @@ const ContactForm = () => {
   };
 
   const handleSubmit = (event) => {
-    console.log(`Form submitted with name of ${formData.name} and ${formData.email}.`)
+    console.log(`Form submitted with name of ${formData.name} and ${formData.email}.`);
     event.preventDefault();
-  }
+  };
 
   return (
     <div>
       <h1>Keep up to date on the tomato.</h1>
+      <span>Enter your name and email address below to receive weekly updates on the status of the tomato.</span>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
         <input type="text" id="name" name="name" onChange={handleChange} />
