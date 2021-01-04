@@ -1093,6 +1093,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
+"@fontsource/aileron@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/aileron/-/aileron-4.1.0.tgz#88ef75bd311ac7ea13e196b89e80275e44d8d5b2"
+  integrity sha512-4bfn5vWdRrQqcTghaPqoqjJCLVXjq2NKuyHLwoEg/rti79ChvH9NUWd4/RighTim9duB+S30sXzwkVpJhrVs3A==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"

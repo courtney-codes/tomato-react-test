@@ -1,21 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import tomatoImage from "./assets/images/tomato.jpg";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import MainLayout from './components/MainLayout';
 import NutritionSidebar from './components/NutritionSidebar';
+import TomatoInformation from './components/TomatoInformation';
 import ContactForm from './components/ContactForm';
 
-import "./styles.css";
+import './styles.css';
 
-function Tomato() { 
+function Tomato() {
   return (
-    <div className="Tomato">
-      <h1>The Tomato</h1>
-      <img className="Tomato__image" src={tomatoImage} alt="Tomato" />
-      <NutritionSidebar />
+    <MainLayout aside={<NutritionSidebar />}>
+      <TomatoInformation />
       <ContactForm />
-    </div>
+    </MainLayout>
   );
 }
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 ReactDOM.render(<Tomato />, rootElement);

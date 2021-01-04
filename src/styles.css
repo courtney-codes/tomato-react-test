@@ -6,3 +6,8 @@
 .Tomato__image {
   width: 250px;
 }
+
+body {
+  width: 100%;
+  margin: 0;
+}
