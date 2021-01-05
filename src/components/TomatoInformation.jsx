@@ -2,24 +2,13 @@ import React from 'react';
 import tomatoImage from '../assets/images/tomato.jpg';
 import TomatoVariants from './TomatoVariants';
 import styled from 'styled-components';
+import { Header1, Header2, Body } from './typography';
 import '@fontsource/aileron/700.css';
 
 const InfoContainer = styled.div`
   display: flex;
   flex-flow: column nowrap;
   padding: 2rem;
-`;
-
-const Header1 = styled.h1`
-  font-weight: 700;
-`;
-
-const Header2 = styled.h2`
-  font-weight: 700;
-`;
-
-const Body = styled.p`
-font-size: 16px;
 `;
 
 const TomatoInformation = () => {
@@ -35,9 +24,7 @@ const TomatoInformation = () => {
           and flavorful crops at the cost of disease resistance and productivity. In 1973, Israeli scientists developed
           the world's first long shelf-life commercial tomato varieties.
         </Body>
-        <Body>
-
-        </Body>
+        <Body>Tomato varieties are roughly divided into several categories, based mostly on shape and size.</Body>
         <TomatoVariants />
       </section>
     </InfoContainer>
