@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
+  "license": "ISC",
   "main": "src/index.js",
   "dependencies": {
     "@fontsource/aileron": "^4.1.0",
