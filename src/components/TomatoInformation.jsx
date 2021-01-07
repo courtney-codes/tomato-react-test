@@ -3,6 +3,7 @@ import tomatoImage from '../assets/images/tomato.jpg';
 import TomatoVariants from './TomatoVariants';
 import styled from 'styled-components';
 import { Header1, Header2, Body } from './typography';
+import TomatoTabs from './TomatoTabs';
 import '@fontsource/aileron/700.css';
 
 const InfoContainer = styled.div`
@@ -26,6 +27,7 @@ const TomatoInformation = () => {
         </Body>
         <Body>Tomato varieties are roughly divided into several categories, based mostly on shape and size.</Body>
         <TomatoVariants />
+        <TomatoTabs />
       </section>
     </InfoContainer>
   );
