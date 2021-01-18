@@ -7,10 +7,6 @@ const NutritionSidebarContainer = styled.div`
   background: #f0f5f8;
 `;
 
-const NutritionSidebarTitle = styled.div`
-
-`;
-
 const NutritionSidebar = () => {
   return (
     <NutritionSidebarContainer>
